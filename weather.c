@@ -14,7 +14,7 @@ int main(){
     float total;
     int year1,year2;
 
-    //To input for how many number of years data user wnats to store
+    //To input for how many number of years data user wants to store
 
     printf("How many years of data you want to enter: ");
     scanf("%d",&no_of_years);
@@ -23,7 +23,7 @@ int main(){
 
     float yearrain[no_of_years][MONTHS];
 
-    //This is to specify during which period user wnats to calculate the data
+    //This is to specify during which period user wants to calculate the data
     //For example, 2010-2015
 
     printf("Data from which year to which year: ");
